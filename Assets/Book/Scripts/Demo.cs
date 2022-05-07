@@ -56,7 +56,7 @@ public class Demo : MonoBehaviour
 
         }
 
-        if (Input.GetButton("XRI_Right_TriggerButton"))
+        if (Input.GetButton("XRI_Right_TriggerButton") && currentPage < pages.Length-1)
         {
 
             if (!hasClicked)
@@ -70,7 +70,7 @@ public class Demo : MonoBehaviour
             }
 
         }
-        if (Input.GetButton("XRI_Left_TriggerButton"))
+        if (Input.GetButton("XRI_Left_TriggerButton") && currentPage > 0)
         {
 
             if (!hasClicked)
