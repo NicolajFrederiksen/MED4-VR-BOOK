@@ -23,6 +23,8 @@ public class Demo : MonoBehaviour
     int currentPage;
     View currentView;
 
+    bool hasClicked = false;
+
 
     public enum View
     {
@@ -36,6 +38,55 @@ public class Demo : MonoBehaviour
         
         nextButton.onClick.AddListener(NextPage);
         previousButton.onClick.AddListener(PreviousPage);
+    }
+
+    private void Update()
+    {
+        if (Input.GetKey(KeyCode.Alpha1))
+        {
+
+
+            if (!hasClicked)
+            {
+                NextPage();
+                hasClicked = true;
+                StartCoroutine(WaitForDelay());
+
+            }
+
+        }
+
+        if (Input.GetButton("XRI_Right_TriggerButton"))
+        {
+
+            if (!hasClicked)
+            {
+                NextPage();
+                hasClicked = true;
+                Debug.Log("Clicking ");
+                StartCoroutine(WaitForDelay());
+
+
+            }
+
+        }
+        if (Input.GetButton("XRI_Left_TriggerButton"))
+        {
+
+            if (!hasClicked)
+            {
+                PreviousPage();
+                hasClicked = true;
+                Debug.Log("Clicking ");
+                StartCoroutine(WaitForDelay());
+
+
+            }
+
+        }
+
+
+
     }
 
     public void SetBook(bool value)
@@ -70,7 +121,13 @@ public class Demo : MonoBehaviour
         yield return new WaitForEndOfFrame();
         UpdatePage();
     }
-    
+
+    IEnumerator WaitForDelay()
+    {
+        yield return new WaitForSeconds(0.5f);
+        hasClicked = false;
+    }
+
     void UpdatePage()
     {
         Array.ForEach(pages, c => { c.SetActive(false);});
