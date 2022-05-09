@@ -10,11 +10,11 @@ public class BookController : MonoBehaviour
     public RenderTexture nextPageTexture;
     public PageTurnAnimation nextPageAnimation;
     public PageTurnAnimation previousPageAnimation;
-    public GraphicRaycaster[] graphicRaycasters;
+    //public GraphicRaycaster[] graphicRaycasters;
 
     public void NextPage()
     {
-        EnableRaycasters(false);
+        //EnableRaycasters(false);
 
         bookCamera.targetTexture = nextPageTexture;
         rightPage.mainTexture = nextPageTexture;
@@ -26,7 +26,7 @@ public class BookController : MonoBehaviour
 
     public void PreviousPage()
     {
-        EnableRaycasters(false);
+        //EnableRaycasters(false);
 
         bookCamera.targetTexture = nextPageTexture;
         leftPage.mainTexture = nextPageTexture;
@@ -38,18 +38,18 @@ public class BookController : MonoBehaviour
 
     void OnTurnPageComplete()
     {
-        EnableRaycasters(true);
+        //EnableRaycasters(true);
 
         bookCamera.targetTexture = currentPageTexture;
         leftPage.mainTexture = currentPageTexture;
         rightPage.mainTexture = currentPageTexture;
     }
 
-    void EnableRaycasters(bool value)
-    {
-        foreach (GraphicRaycaster graphicRaycaster in graphicRaycasters)
-            graphicRaycaster.enabled = value;
-    }
+    //void EnableRaycasters(bool value)
+    //{
+    //    foreach (GraphicRaycaster graphicRaycaster in graphicRaycasters)
+    //        graphicRaycaster.enabled = value;
+    //}
 
     void Start()
     {

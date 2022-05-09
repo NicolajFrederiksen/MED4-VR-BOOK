@@ -7,10 +7,10 @@ public class Demo : MonoBehaviour
 {
     public BookController bookController;
     
-    [SerializeField]
-    Button nextButton;
-    [SerializeField]
-    Button previousButton;
+    //[SerializeField]
+    //Button nextButton;
+    //[SerializeField]
+    //Button previousButton;
     [SerializeField]
     Image bookImage;
     [SerializeField]
@@ -25,7 +25,7 @@ public class Demo : MonoBehaviour
     int currentPage;
     View currentView;
 
-    bool hasClicked = false;
+   
 
 
     public enum View
@@ -38,8 +38,8 @@ public class Demo : MonoBehaviour
     {
         UpdatePage();
         
-        nextButton.onClick.AddListener(NextPage);
-        previousButton.onClick.AddListener(PreviousPage);
+        //nextButton.onClick.AddListener(NextPage);
+        //previousButton.onClick.AddListener(PreviousPage);
     }
 
     private void Update()
@@ -47,46 +47,23 @@ public class Demo : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Alpha1))
         {
 
-
-            if (!hasClicked)
-            {
-                
-                NextPage();
-               
-                hasClicked = true;
-                StartCoroutine(WaitForDelay());
-
-            }
+            NextPage();
+      
 
         }
 
-        if (Input.GetButton("XRI_Right_TriggerButton") && currentPage < pages.Length-1)
+        if (Input.GetButtonDown("XRI_Right_TriggerButton") && currentPage < pages.Length-1)
         {
 
-            if (!hasClicked)
-            {
-                NextPage();
-
-                hasClicked = true;
-                Debug.Log("Clicking ");
-                StartCoroutine(WaitForDelay());
-
-
-            }
+        
+            NextPage();
 
         }
-        if (Input.GetButton("XRI_Left_TriggerButton") && currentPage > 0)
+        if (Input.GetButtonDown("XRI_Left_TriggerButton") && currentPage > 0)
         {
 
-            if (!hasClicked)
-            {
-                PreviousPage();
-                hasClicked = true;
-                Debug.Log("Clicking ");
-                StartCoroutine(WaitForDelay());
-
-
-            }
+         
+            PreviousPage();
 
         }
 
@@ -127,18 +104,14 @@ public class Demo : MonoBehaviour
         UpdatePage();
     }
 
-    IEnumerator WaitForDelay()
-    {
-        yield return new WaitForSeconds(0.5f);
-        hasClicked = false;
-    }
+
 
     void UpdatePage()
     {
         Array.ForEach(pages, c => { c.SetActive(false);});
         pages[currentPage].SetActive(true);
         
-        nextButton.gameObject.SetActive(currentPage < pages.Length - 1);
-        previousButton.gameObject.SetActive(currentPage > 0);
+        //nextButton.gameObject.SetActive(currentPage < pages.Length - 1);
+        //previousButton.gameObject.SetActive(currentPage > 0);
     }
 }
