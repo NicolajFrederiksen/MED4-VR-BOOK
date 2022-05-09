@@ -18,6 +18,8 @@ public class Demo : MonoBehaviour
     [SerializeField]
     Sprite notepadTexture;
 
+    
+
     public GameObject[] pages;
 
     int currentPage;
@@ -42,13 +44,15 @@ public class Demo : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKey(KeyCode.Alpha1))
+        if (Input.GetKeyDown(KeyCode.Alpha1))
         {
 
 
             if (!hasClicked)
             {
+                
                 NextPage();
+               
                 hasClicked = true;
                 StartCoroutine(WaitForDelay());
 
@@ -62,6 +66,7 @@ public class Demo : MonoBehaviour
             if (!hasClicked)
             {
                 NextPage();
+
                 hasClicked = true;
                 Debug.Log("Clicking ");
                 StartCoroutine(WaitForDelay());
