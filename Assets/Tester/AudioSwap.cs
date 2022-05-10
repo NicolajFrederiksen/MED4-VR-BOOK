@@ -23,7 +23,7 @@ public class AudioSwap : MonoBehaviour
             AudioManager.instance.SwapTrack(newTrack);
             Debug.Log("Key down");
         }
-        if(Input.GetButtonDown("XRI_Right_TriggerButton"))
+        if(Input.GetButtonDown("XRI_Right_SecondaryButton"))
         {
             AudioManager.instance.SwapTrack(newTrack);
         }

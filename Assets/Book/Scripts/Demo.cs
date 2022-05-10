@@ -52,14 +52,14 @@ public class Demo : MonoBehaviour
 
         }
 
-        if (Input.GetButtonDown("XRI_Right_TriggerButton") && currentPage < pages.Length-1)
+        if (Input.GetButtonDown("XRI_Right_SecondaryButton") && currentPage < pages.Length-1)
         {
 
         
             NextPage();
 
         }
-        if (Input.GetButtonDown("XRI_Left_TriggerButton") && currentPage > 0)
+        if (Input.GetButtonDown("XRI_Right_PrimaryButton") && currentPage > 0)
         {
 
          
