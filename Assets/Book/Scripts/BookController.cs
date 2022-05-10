@@ -22,6 +22,8 @@ public class BookController : MonoBehaviour
         nextPageAnimation.leftSideMaterial.mainTexture = currentPageTexture;
         nextPageAnimation.rightSideMaterial.mainTexture = nextPageTexture;
         nextPageAnimation.Play(OnTurnPageComplete);
+
+        
     }
 
     public void PreviousPage()
