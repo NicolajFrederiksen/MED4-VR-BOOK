@@ -407,7 +407,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &46485149
 RectTransform:
   m_ObjectHideFlags: 0
@@ -684,10 +684,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1.25
-  m_Text: "Efter at have g\xE5et lidt tid i de mennesketomme stille gader, lagde
-    han pludselig m\xE6rke til at andre fodtrin var begyndt at lyde i natten. De
-    gik i samme takt, men virkede tungere end hans egne. Jonas stoppede og kiggede
-    omkring sig."
+  m_Text: "Gaderne var stadig tomme og stille. Lyden af skridt var ogs\xE5 holdt
+    op. Havde det bare v\xE6ret indbildning? Han havde vist nok ogs\xE5 f\xE5et en
+    del at drikke til festen, alts\xE5 ud over det han havde h\xE6ldt ud over Emma."
 --- !u!222 &78891864
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1720,9 +1719,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1.25
-  m_Text: "Han ledte rundt i lejligheden, men han kunne ikke finde Dennis. Han var
-    heller ikke st\xF8dt p\xE5 Sofie p\xE5 noget tidspunkt, han ville ellers gerne
-    have sagt undskyld til hende."
+  m_Text: "og ud i entreen hvor der var lidt mere luft. Han ledte rundt i lejligheden,
+    men han kunne ikke finde ham. Han var heller ikke st\xF8dt p\xE5 Emma p\xE5 noget
+    tidspunkt, han ville ellers gerne have sagt undskyld til hende. Han tog sin mobil
+    frem for at ringe til Jacob, ingen str\xF8m, selvf\xF8lgelig."
 --- !u!222 &252027474
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1802,10 +1802,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1.25
-  m_Text: "Jonas stod i hj\xF8rnet af lokalet med sin \xF8l i h\xE5nden og kiggede
+  m_Text: "Oliver stod i hj\xF8rnet af lokalet med sin \xF8l i h\xE5nden og kiggede
     ned i gulvet. Det var den f\xF8rste fest han havde v\xE6ret til siden han var
-    flyttet til byen og ud over Dennis, en fyr fra sit kollegie, kendte han ikke
-    nogen..."
+    flyttet til byen, og ud over Jacob, en fyr fra sit kollegie, kendte han ikke
+    nogen."
 --- !u!222 &264994343
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1885,11 +1885,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1.25
-  m_Text: "Jonas gik videre, han var kun n\xE5et nogle f\xE5 skridt, f\xF8r lyden
-    af de andre skrid var tilbage denne gang meget hurtigere og h\xF8jre en f\xF8r,
-    han vendte sig igen. Skikkelsen var nu meget t\xE6ttere p\xE5.  Hvordan kunne
-    det overhoved lade sig g\xF8re for noget at tilbagel\xE6gge s\xE5 lang en distance
-    p\xE5 so kort tid?"
+  m_Text: "Han gik videre, men var kun kommet nogle f\xE5 skridt, f\xF8r lyden af
+    de andre skridt var tilbage, denne gang meget hurtigere og h\xF8jre en f\xF8r,
+    han vendte sig igen."
 --- !u!222 &270251485
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2104,9 +2102,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1.25
-  m_Text: "Han satte farten lidt op, han var ikke bange, sagde han til sig selv,
-    men der var trods alt ingen grund til at bruge l\xE6ngere tid p\xE5 at komme
-    hjem end h\xF8jst n\xF8dvendigt."
+  m_Text: "Efter at have g\xE5et lidt tid i de mennesketomme stille gader, lagde
+    han pludselig m\xE6rke til at andre fodtrin var begyndt at lyde i natten. De
+    gik i samme takt, men virkede tungere end hans egne. Han stoppede og kiggede
+    omkring sig."
 --- !u!222 &279290561
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2331,10 +2330,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1.25
-  m_Text: "Han ville bare gerne hjem, men han kunne ikke finde Dennis, og havde ikke
-    lyst til at g\xE5 alene. Der gik p\xE5 universitet rygter om at unge var begyndt
-    at forsvinde i nattelivet, sikkert bare noget nogen havde fundet p\xE5 for at
-    skr\xE6mme dem der lige var flyttet til byen."
+  m_Text: "Nu stod hun sikkert med sine veninder ude p\xE5 toilettet og snakkede
+    om hvor stor en idiot han var. Han ville bare gerne hjem, men han kunne ikke
+    finde Jacob, og havde ikke lyst til at g\xE5 alene."
 --- !u!222 &322281300
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4273,10 +4271,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1.25
-  m_Text: "Det kunne m\xE5ske ligne omridset af en person, men det var s\xE5 langt
-    nede af gaden, at det umuligt kunne v\xE6re skridtene fra den person han havde
-    kunne h\xF8re. Skikkelsen bev\xE6gede sig ikke, det var sikkert bare en eller
-    anden der var p\xE5 vej hjem fra byen."
+  m_Text: "men det var s\xE5 langt nede af gaden, at det umuligt kunne v\xE6re skridtene
+    fra den person han havde kunne h\xF8re. Skikkelsen bev\xE6gede sig ikke, det
+    var sikkert bare en eller anden der var p\xE5 vej hjem fra byen."
 --- !u!222 &583935251
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4516,10 +4513,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1.25
-  m_Text: "Nu stod han alts\xE5 i hj\xF8rnet og fortr\xF8d at han var taget afsted.
-    Han havde kort forinden pr\xF8vet at komme til at danse med Sofie, og var i sin
-    begejstring kommet til at spille \xF8l ud over hende. Nu stod hun sikkert med
-    sine veninder ude p\xE5 toilettet og snakkede om hvor stor en idiot han var."
+  m_Text: "Nu stod han i hj\xF8rnet og fortr\xF8d at han var taget afsted. Han havde
+    kort forinden pr\xF8vet at komme til at danse med Emma, og var i sin begejstring
+    kommet til at spilde \xF8l ud over hende."
 --- !u!222 &599607132
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6447,8 +6443,9 @@ MonoBehaviour:
     m_VerticalOverflow: 1
     m_LineSpacing: 1.25
   m_Text: "Han begyndte at g\xE5 videre og i det samme begyndte lyden af de andre
-    skridt igen. Denne gang var skridtene hurtigere. Jonas stoppede og kiggede bagud
-    igen. Nu kunne han ane noget i sk\xE6ret af en lygtep\xE6l langt nede af vejen."
+    skridt igen. Denne gang var skridtene hurtigere. Han stoppede og kiggede bagud
+    igen. Nu kunne han ane noget i sk\xE6ret af en lygtep\xE6l langt nede af vejen.
+    Det kunne m\xE5ske ligne omridset af en person,"
 --- !u!222 &898504474
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7643,7 +7640,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1003531630
 RectTransform:
   m_ObjectHideFlags: 0
@@ -9002,11 +8999,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1.25
-  m_Text: "Han blev tr\xE6t af at lede, og da klokken var omkring halv 3, lukkede
-    han d\xF8ren til festen bag sig og gik ud i natten. Aftenen havde v\xE6ret en
-    skuffelse og han undrede sig over hvorfor han overhoved nogensinde havde kunnet
-    lide Sofie. Vejen hjem var lang og Jonas h\xE5bede at han var p\xE5 vej i den
-    rigtige retning."
+  m_Text: "Da klokken var omkring halv 3, og han stadig ikke havde fundet Jacob,
+    besluttede han at tage hjem uden ham. Aftenen havde v\xE6ret en skuffelse og
+    han undrede sig over hvorfor han overhoved nogensinde havde kunnet lide Emma.
+    Vejen hjem var lang og han h\xE5bede at han var p\xE5 vej i den rigtige"
 --- !u!222 &1138604070
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9534,11 +9530,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1.25
-  m_Text: "De stod begge helt stille. Hold k\xE6ft hvor er det dumt det her t\xE6nkte
-    han. Der er ingen grund til at v\xE6re bange sagde han til sig selv, det er sikkert
-    bare en eller anden idiot der pr\xF8ver at skr\xE6mme dig. Fast besluttet p\xE5
-    ikke at lade sig tyrannisere af en tilf\xE6ldig fremmed begyndte han at g\xE5
-    hen mod skikkelsen."
+  m_Text: "Skikkelsen var nu meget t\xE6ttere p\xE5, underligt at den havde kunnet
+    n\xE5 s\xE5 langt p\xE5 s\xE5 kort tid. De stod begge helt stille."
 --- !u!222 &1252010402
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -10410,7 +10403,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1.25
-  m_Text: 
+  m_Text: "Men selvom han godt vidste det bare var dumme rygter, blev han alligevel
+    lidt nerv\xF8s ved tanken om at g\xE5 alene hjem. Han var heller ikke helt sikker
+    p\xE5 at han kendte vejen."
 --- !u!222 &1353454239
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -11670,9 +11665,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1.25
-  m_Text: "Gaderne var stadig tomme og stille. Lyden af skridt var ogs\xE5 holdt
-    op. Havde det bare v\xE6ret indbildning? Han havde vist nok ogs\xE5 f\xE5et en
-    del at drikke til festen, alts\xE5 ud over det han havde h\xE6ldt ud over Sofie."
+  m_Text: 
 --- !u!222 &1439391993
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -12640,7 +12633,7 @@ MonoBehaviour:
   m_Text: "Han kiggede rundt i gaderne og begyndte at undre sig over hvor stille
     natten var. Der var ingen lejligheder med lys i vinduerne, og hverken biler eller
     mennesker p\xE5 gaden. Den eneste lyd var hans egne skridt der sl\xE6bte sig
-    over asfalten."
+    over asfalten. Han satte farten lidt op,"
 --- !u!222 &1576859184
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -13471,7 +13464,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1703886607
 RectTransform:
   m_ObjectHideFlags: 0
@@ -14806,7 +14799,7 @@ GameObject:
   m_Layer: 0
   m_Name: AudioManager
   m_TagString: Untagged
-  m_Icon: {fileID: -1412012063857583412, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -15233,10 +15226,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1.25
-  m_Text: "Bygningerne lignede alle sammen hinanden, og han kendte ikke byen godt
-    nok endnu til at kunne huske vejnavnene. Han ville \xF8nske at han havde v\xE6ret
-    mere opm\xE6rksom p\xE5 vej til festen, men han havde jo v\xE6ret sikker p\xE5
-    at han skulle f\xF8lges med Dennis hjem."
+  m_Text: "retning. Bygningerne lignede allesammen hinanden, og han kendte ikke byen
+    godt nok endnu til at kunne huske vejnavnene. Han ville \xF8nske at han havde
+    v\xE6ret mere opm\xE6rksom p\xE5 vej til festen, men han havde jo v\xE6ret sikker
+    p\xE5 at han skulle f\xF8lges med Jacob hjem."
 --- !u!222 &1868999622
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -15461,7 +15454,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1.25
-  m_Text: 
+  m_Text: "han var ikke bange, sagde han til sig selv, men der var trods alt ingen
+    grund til at bruge l\xE6ngere tid p\xE5 at komme hjem end h\xF8jst n\xF8dvendigt.
+    Det f\xF8ltes som om sommernatten var blevet koldere og, han begyndte at ryste."
 --- !u!222 &1906024840
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -15654,10 +15649,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1.25
-  m_Text: "Dennis havde i hvert fald ikke virket s\xE6rligt p\xE5virket af det. Men
-    selvom han godt vidste det bare var dumme rygter, blev han alligevel lidt nerv\xF8s
-    ved tanken om at g\xE5 alene hjem. Han var heller ikke helt sikker p\xE5 at han
-    kendte vejen."
+  m_Text: "Der gik p\xE5 universitet rygter om at unge var begyndt at forsvinde i
+    nattelivet, sikkert bare noget nogen havde fundet p\xE5 for at skr\xE6mme dem
+    der lige var flyttet til byen. Jacob havde i hvert fald ikke virket s\xE6rligt
+    p\xE5virket af det."
 --- !u!222 &1922680095
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -16808,10 +16803,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1.25
-  m_Text: "Eller han kendte ogs\xE5 Sofie, en s\xF8d pige fra studiet, som var hoved\xE5rsagen
-    til at han var taget til festen. Hun havde n\xE6vnt at hun ville v\xE6re der,
-    og det havde v\xE6ret sv\xE6rt for Jonas at sige nej, selvom han egentlig havde
-    foretrukket at blive hjemme."
+  m_Text: "Eller han kendte ogs\xE5 lidt Emma, en s\xF8d pige fra studiet, som var
+    hoved\xE5rsagen til at han var taget til festen. Hun havde n\xE6vnt at hun ville
+    v\xE6re der, og det havde v\xE6ret sv\xE6rt for ham at sige nej, selvom han egentlig
+    havde foretrukket at blive hjemme."
 --- !u!222 &2058098991
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -16897,11 +16892,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1.25
-  m_Text: "Jonas bundede sin \xF8l og bev\xE6gede sig ud fra hj\xF8rnet for at finde
-    Dennis. Klokken var omkring 2 og festen var i fuld gang. De mange mennesker p\xE5
+  m_Text: "Han bundede sin \xF8l og bev\xE6gede sig ud fra hj\xF8rnet for at finde
+    Jacob. Klokken var omkring 2, festen var i fuld gang, og de mange mennesker p\xE5
     dansegulvet gjorde det sv\xE6rt at bev\xE6ge sig. Det lykkedes ham efter noget
-    tid at for k\xE6mpet sig gennem den svedige m\xE6ngde og ud i entreen hvor der
-    var lidt mere luft."
+    tid at f\xE5r k\xE6mpet sig gennem den svedige m\xE6ngde"
 --- !u!222 &2066894781
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -17028,7 +17022,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2093715804}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
   m_Name: 
