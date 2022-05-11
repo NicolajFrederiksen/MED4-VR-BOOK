@@ -407,7 +407,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &46485149
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2185,9 +2185,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1.25
-  m_Text: "Han brugte sin sidste energi og l\xF8b s\xE5 hurtigt han kunne mod lyset.
-    Han var n\xE6sten n\xE5et derhen, da de tunge trin pludselig stoppede, og natten
-    blev helt stille igen."
+  m_Text: "Stadig i l\xF8b kiggede han sig over skulderen for at se hvorfor lyden
+    var holdt op. Han n\xE5ede lige at se brostenen der fl\xF8j imod ham, men det
+    var for sent at dukke sig. Stenen ramte ham h\xE5rdt og alting blev sort."
 --- !u!222 &306860154
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2458,8 +2458,9 @@ MonoBehaviour:
     m_VerticalOverflow: 1
     m_LineSpacing: 1.25
   m_Text: "Han l\xF8b s\xE5 hurtigt han kunne gennem den \xF8de gade, men han kunne
-    h\xF8re de tunge trin hale ind p\xE5 ham. Det var en overd\xF8vende larm der
-    rungede i han \xF8rer, og han kunne ikke engang h\xF8re sin egen vejrtr\xE6kning."
+    h\xF8re de tunge trin hale ind p\xE5 ham. Han pr\xF8vede at r\xE5be p\xE5 hj\xE6lp,
+    men trinnene lavede en overd\xF8vende larm der rungede i han \xF8rer, og han
+    kunne ikke h\xF8re sig selv r\xE5be. Bygningerne forblev m\xF8rke."
 --- !u!222 &326690316
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3714,9 +3715,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1.25
-  m_Text: "Stadig i l\xF8b kiggede han sig over skulderen for at se hvorfor lyden
-    var holdt op, han n\xE5ede lige at se brostenen der fl\xF8j imod ham, men det
-    var for sent at dukke sig.\n"
+  m_Text: '
+
+'
 --- !u!222 &486706866
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4907,7 +4908,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1.25
-  m_Text: 
+  m_Text: "der var den rigtige vej hjem. Han havde ikke tid til at stoppe op for
+    at t\xE6nke og drejede hurtigt mod venstre. Trinnene rungede stadig i hans \xF8rer,
+    og han kiggede forvirret rundt, men kunne ikke genkende vejen."
 --- !u!222 &673219606
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5783,10 +5786,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1.25
-  m_Text: "Den stod lidt bag en lygtep\xE6l, og var derfor mest indhyllet i skygger,
-    men jo t\xE6ttere han kom, jo mere underlig forekom den. Det var som om at den
-    alligevel ikke rigtig virkede helt menneskelig, og nu han var kommet lidt t\xE6ttere,
-    var den egentlig ogs\xE5 alt for stor til at v\xE6re et menneske."
+  m_Text: "Skikkelsen stod lidt bag en lygtep\xE6l, og var derfor mest indhyllet
+    i skygger, men jo t\xE6ttere han kom, jo mere underlig forekom den. Nu han var
+    kommet lidt t\xE6ttere, virkede den alt for stor til at v\xE6re et menneske. "
 --- !u!222 &795325811
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6038,10 +6040,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1.25
-  m_Text: "Trinnene rungede stadig i hans \xF8rer, og han kiggede forvirret rundt,
-    men kunne ikke genkende vejen. Der var stadig m\xF8rkt i alle huse, han vidste
-    at det ikke ville nytte noget at r\xE5be p\xE5 hj\xE6lp, men han pr\xF8vede alligevel
-    med al den kr\xE6ft han kunne m\xF8nstre."
+  m_Text: "Han var ved at give op og kunne m\xE6rke v\xE6senet \xE5nde ham i nakken,
+    da han fik \xF8je p\xE5 et lys i en af de ellers m\xF8rklagte bygninger. Han
+    brugte sin sidste energi og l\xF8b s\xE5 hurtigt han kunne mod lyset."
 --- !u!222 &836830384
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7280,9 +7281,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1.25
-  m_Text: "Den lyd det kom over hans l\xE6ber var ikke mere end et kvalt skrig. Han
-    var ved at give op og kunne m\xE6rke v\xE6senet \xE5nde ham i nakken, da han
-    fik \xF8je p\xE5 et lys i en af de ellers m\xF8rklagte bygninger."
+  m_Text: "Han var n\xE6sten n\xE5et derhen, da de tunge trin pludselig stoppede,
+    og natten blev helt stille igen."
 --- !u!222 &949981930
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7611,9 +7611,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1.25
-  m_Text: " Den begyndte langsomt at bev\xE6ge sig hen imod ham. Han genkendte de
-    tunge skridt han havde h\xF8rt f\xF8r. Da skikkelsen tr\xE5dte ind i lyset fra
-    lygtep\xE6len blev det tydeligt at det bestemt ikke var et menneske, hvordan
+  m_Text: "Den begyndte langsomt at bev\xE6ge sig hen imod ham. Han genkendte de
+    tunge trin han havde h\xF8rt f\xF8r. Da skikkelsen tr\xE5dte ind i lyset fra
+    lygtep\xE6len, blev det tydeligt at det bestemt ikke var et menneske, hvordan
     han overhoved havde kunne tro det virkede latterligt."
 --- !u!222 &1001426472
 CanvasRenderer:
@@ -8276,10 +8276,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1.25
-  m_Text: "Han turde ikke kigge tilbage for at se hvor langt han forspring var, men
-    han begyndte at kunne ane dens skygge p\xE5 siden af sig. Han n\xE6rmede sig
-    enden af den lange gade, men han var i sin panik blevet i tvivl om hvilken vej,
-    der var den rigtige vej hjem."
+  m_Text: 
 --- !u!222 &1062534639
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9128,7 +9125,7 @@ MonoBehaviour:
     m_VerticalOverflow: 1
     m_LineSpacing: 1.25
   m_Text: "Han n\xE5ede ikke at n\xE6rstudere den i lyset, for den satte farten op,
-    og hans nysgerrighed blev erstattet af en overv\xE6ldene r\xE6dsel. Han vendte
+    og hans nysgerrighed blev erstattet af en overv\xE6ldende r\xE6dsel. Han vendte
     sig og begyndte at l\xF8be."
 --- !u!222 &1148222154
 CanvasRenderer:
@@ -9530,8 +9527,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1.25
-  m_Text: "Skikkelsen var nu meget t\xE6ttere p\xE5, underligt at den havde kunnet
-    n\xE5 s\xE5 langt p\xE5 s\xE5 kort tid. De stod begge helt stille."
+  m_Text: "Der er ingen grund til at v\xE6re bange sagde han til sig selv, det er
+    sikkert bare en eller anden idiot der pr\xF8ver at skr\xE6mme dig. Fast besluttet
+    p\xE5 ikke at lade sig tyrannisere af en tilf\xE6ldig fremmed begyndte han at
+    g\xE5 hen mod skikkelsen for at se hvem det var."
 --- !u!222 &1252010402
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9557,7 +9556,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1256481906
 RectTransform:
   m_ObjectHideFlags: 0
@@ -13784,9 +13783,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1.25
-  m_Text: "Det der burde have v\xE6re toppen af hovedet gik n\xE6sten helt op til
-    toppen af lygtep\xE6len den stod bag. Alt for lange arme hang slap ned af siden
-    p\xE5 den, og endte ud i havde der lignede alt for lange fingre."
+  m_Text: "Det s\xE5 ud som om den var n\xE6sten lige s\xE5 h\xF8j som lygtep\xE6len
+    den stod bag og alt for lange arme hang slap ned ad siden p\xE5 den, og endte
+    ud i hvad der lignede alt for lange fingre. Han fr\xF8s."
 --- !u!222 &1745243384
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -14715,8 +14714,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1.25
-  m_Text: "Han havde ikke tid til at stoppe op for at t\xE6nke og drejede hurtigt
-    mod venstre."
+  m_Text: "Han turde ikke kigge tilbage for at se hvor langt han forspring var, men
+    han begyndte at kunne ane dens skygge p\xE5 siden af sig. Han n\xE6rmede sig
+    enden af den lange gade, men han var i sin panik blevet i tvivl om hvilken vej,"
 --- !u!222 &1814225784
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -17206,7 +17206,7 @@ GameObject:
   - component: {fileID: 2119329424}
   - component: {fileID: 2119329423}
   m_Layer: 13
-  m_Name: Book
+  m_Name: Book - Danish
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
